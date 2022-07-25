@@ -1,0 +1,44 @@
+<mat-card class="mat-custom-card" style="display: flex; justify-content: center; height: 10vh;">
+  <app-user [user]="user"></app-user>
+  <!-- Login / Logout -->
+  <ng-container *ngIf="user; else needLogin">
+    <button mat-stroked-button color="primary" (click)="logOut()" className="customButton">Logout</button>
+  </ng-container>
+</mat-card>
+
+<mat-card class="mat-custom-card">
+  <span class="mat-h1">Halo Weapons NFT</span>
+  <p style="margin-top: 5px;">
+    ERC-721 NFTs with embedded 3D models.
+    There's 12 to collect!<br>
+    You can mint a random NFT or a custom one providing metadata uploaded to IPFS.
+  </p>
+  <app-model-viewer></app-model-viewer>
+</mat-card>
+
+<mat-card class="mat-custom-card" style="display: flex; justify-content: center;">
+<ng-container *ngIf="user; else cantMint">
+  <button mat-raised-button color="accent" (click)="mintRandom()" >Mint random weapon</button>
+  <p style="margin-top: 10px;">or</p>
+  <div style="display: flex; gap: 40px;">
+    <mat-form-field class="mat-custom-input" appearance="fill">
+      <mat-label>To address</mat-label>
+      <input matInput placeholder="0x..." [(ngModel)]="custom_address" >
+    </mat-form-field>
+    <mat-form-field class="mat-custom-input" appearance="fill">
+      <mat-label>Custom URI</mat-label>
+      <input matInput placeholder="ipfs://..." [(ngModel)]="custom_uri">
+    </mat-form-field>
+  </div>
+  <button mat-raised-button color="accent" (click)="mintCustom()" >Mint custom weapon</button>
+</ng-container>
+</mat-card>
+
+<ng-template #needLogin>
+  <button mat-raised-button color="primary" (click)="login()">Login with Metamask</button>
+</ng-template>
+
+<ng-template #cantMint>
+  <button mat-raised-button disabled>Mint random weapon</button>
+  <button mat-raised-button disabled style="margin-top: 20px;">Mint custom weapon</button>
+</ng-template>

@@ -1,0 +1,266 @@
+{
+    "assault_rifle" : {
+        "name": "MA37 Assault Rifle",
+        "fileName": "assault_rifle",
+        "description": "The MA37 assault rifle is an air-cooled, gas-operated, magazine-fed, fully automatic rifle that fires 7.62×51mm ammunition. The MA37 is modular, which allows for easy cleaning and repair.",
+        "image": "ipfs://bafybeihjzya37wpmtct2miidvvrj5vk54fpqpz4ivipzmwqa3qxeds4egq/assault_rifle.png",
+        "animation_url":"ipfs://bafybeidbgyv5qcikjme4k4xfggwmau7ktpblxjj5inhms4lwetro43uxvi/assault_rifle.glb",
+        "external_url": "ipfs://bafybeidbgyv5qcikjme4k4xfggwmau7ktpblxjj5inhms4lwetro43uxvi/assault_rifle.glb",
+        "attributes": [
+            {
+                "trait_type": "Weapon Type",
+                "value": "Marksman Rifle"
+            },
+            {
+                "trait_type": "Ammo Type",
+                "value": "Kinetic"
+            },
+            {
+                "trait_type": "Faction",
+                "value": "UNSC"
+            }
+        ]
+    },
+    "dmr" : {
+        "name": "M392 DMR",
+        "fileName": "dmr",
+        "description": "The M392 is an air-cooled, magazine-fed, gas-operated select-fire bullpup rifle that fires 7.62×51mm ammunition. It accepts a fifteen-round detachable box magazine similar. The weapon has a mounted EVOS-D optic capable of 3× magnification. The weapon's fire selector switch (located above the grip) has three settings: SAFE, FIRE, and AUTO. The magazine release button is located directly above the magazine well, behind the trigger. The weapon has an ejection port on either side so it may be used comfortably by a right- or left-handed shooter.",
+        "image": "ipfs://bafybeihjzya37wpmtct2miidvvrj5vk54fpqpz4ivipzmwqa3qxeds4egq/dmr.png",
+        "animation_url":"ipfs://bafybeidbgyv5qcikjme4k4xfggwmau7ktpblxjj5inhms4lwetro43uxvi/dmr.glb",
+        "external_url": "ipfs://bafybeidbgyv5qcikjme4k4xfggwmau7ktpblxjj5inhms4lwetro43uxvi/dmr.glb",
+        "attributes": [
+            {
+                "trait_type": "Weapon Type",
+                "value": "Assault Rifle"
+            },
+            {
+                "trait_type": "Ammo Type",
+                "value": "Kinetic"
+            },
+            {
+                "trait_type": "Faction",
+                "value": "UNSC"
+            }
+        ]
+    },
+    "smg" : {
+        "name": "M7 SMG",
+        "fileName": "smg",
+        "description": "The M7/Caseless Submachine Gun is an automatic submachine gun that fires from a 60-round magazine which is placed horizontally on the left side of the weapon. Due to the odd horizontal placement of the magazine on the weapon, it can be assumed that the magazine utilizes a circular ramp where the magazine meets the breech. This rotates the horizontally stacked rounds in the magazine 90 degrees until they align with the horizontal breech. An example of this can be seen in the present day Fabrique Nationale P90 SMG.",
+        "image": "ipfs://bafybeihjzya37wpmtct2miidvvrj5vk54fpqpz4ivipzmwqa3qxeds4egq/smg.png",
+        "animation_url":"ipfs://bafybeidbgyv5qcikjme4k4xfggwmau7ktpblxjj5inhms4lwetro43uxvi/smg.glb",
+        "external_url": "ipfs://bafybeidbgyv5qcikjme4k4xfggwmau7ktpblxjj5inhms4lwetro43uxvi/smg.glb",
+        "attributes": [
+            {
+                "trait_type": "Weapon Type",
+                "value": "Sub Machine Gun"
+            },
+            {
+                "trait_type": "Ammo Type",
+                "value": "Kinetic"
+            },
+            {
+                "trait_type": "Faction",
+                "value": "UNSC"
+            }
+        ]
+    },
+    "shotgun" : {
+        "name": "M90 shotgun",
+        "fileName": "shotgun",
+        "description": "The M90 is a pump-action shotgun, chambered in the extremely powerful 8-gauge magnum shell, and feeding from a 12-round, dual-tubular, non-detachable magazine. It is generally utilized alongside MAG 15P-00B rounds, and is designed as a more practical and cost-effective recreation of Misriah Armory’s M45E Tactical Shotgun, though in UNSC service it is considered to be functionally identical.",
+        "image": "ipfs://bafybeihjzya37wpmtct2miidvvrj5vk54fpqpz4ivipzmwqa3qxeds4egq/shotgun.png",
+        "animation_url":"ipfs://bafybeidbgyv5qcikjme4k4xfggwmau7ktpblxjj5inhms4lwetro43uxvi/shotgun.glb",
+        "external_url": "ipfs://bafybeidbgyv5qcikjme4k4xfggwmau7ktpblxjj5inhms4lwetro43uxvi/shotgun.glb",
+        "attributes": [
+            {
+                "trait_type": "Weapon Type",
+                "value": "Shotgun"
+            },
+            {
+                "trait_type": "Ammo Type",
+                "value": "Kinetic"
+            },
+            {
+                "trait_type": "Faction",
+                "value": "UNSC"
+            }
+        ]
+    },
+    "sniper_rifle" : {
+        "name": "SRS99-AM Sniper Rifle",
+        "fileName": "sniper_rifle",
+        "description": "The SRS99 is a semi-automatic, gas-operated rifle that fires 14.5×114mm ammunition from a four-round detachable box magazine. The ejection port is on the right side of the weapon and the charging handle is on the left side. Unlike all other known models of the SRS99 series, this variant features a thumbhole stock instead of a pistol grip, and its body sports a black and navy blue finish in addition to the gray of its successors. The SRS99 is equipped with the Oracle N-variant scope, which can display green outlines of objects when not in active use.",
+        "image": "ipfs://bafybeihjzya37wpmtct2miidvvrj5vk54fpqpz4ivipzmwqa3qxeds4egq/sniper_rifle.png",
+        "animation_url":"ipfs://bafybeidbgyv5qcikjme4k4xfggwmau7ktpblxjj5inhms4lwetro43uxvi/sniper_rifle.glb",
+        "external_url": "ipfs://bafybeidbgyv5qcikjme4k4xfggwmau7ktpblxjj5inhms4lwetro43uxvi/sniper_rifle.glb",
+        "attributes": [
+            {
+                "trait_type": "Weapon Type",
+                "value": "Sniper Rifle"
+            },
+            {
+                "trait_type": "Ammo Type",
+                "value": "Kinetic"
+            },
+            {
+                "trait_type": "Faction",
+                "value": "UNSC"
+            }
+        ]
+    },
+    "target_locator" : {
+        "name": "H-165 Target Locator",
+        "fileName": "target_locator",
+        "description": "The H-165 FOM is a compact, handheld laser device designed for acquiring and designating targets for small-scale orbital bombardment from an orbiting UNSC starshipand nearby aircraft, and is typically used by Joint Fires Observer personnel. The H-165 Target Locator was preceded by the H-120 and the H-155 FOM models and was superseded in the post-war era by the H-295 FOM. While similar in function to the laser designator, the Target Locator is much smaller and can be held with one hand. The Target Locator also features a scope for target acquisition accuracy at greater range and an intercom for user communication.",
+        "image": "ipfs://bafybeihjzya37wpmtct2miidvvrj5vk54fpqpz4ivipzmwqa3qxeds4egq/target_locator.png",
+        "animation_url":"ipfs://bafybeidbgyv5qcikjme4k4xfggwmau7ktpblxjj5inhms4lwetro43uxvi/target_locator.glb",
+        "external_url": "ipfs://bafybeidbgyv5qcikjme4k4xfggwmau7ktpblxjj5inhms4lwetro43uxvi/target_locator.glb",
+        "attributes": [
+            {
+                "trait_type": "Weapon Type",
+                "value": "Target Locator"
+            },
+            {
+                "trait_type": "Ammo Type",
+                "value": "None"
+            },
+            {
+                "trait_type": "Faction",
+                "value": "UNSC"
+            }
+        ]
+    },
+    "carbine" : {
+        "name": "Type-51 Carbine",
+        "fileName": "carbine",
+        "description": "The Type-51 Carbine is a recoil-operated and charger-fed, semi-automatic marksman rifle. It serves as medium to long-range weapon utilized by Covenant forces. The weapon's cylindrical magazine holds 18 rounds, and also provides indication of number of rounds left in the magazine by utilizing a holographic display. The back end of the weapon contains two circular openings, the forward one is the weapon's hand guard and the area in front of it is where the weapon's trigger is located. On the weapon's top rail is the magazine well and ammunition chamber, next to it is a hammer like device which springs back when the weapon is fired. The forward part of the weapon contains the Type-51 Carbine's barrel, which controls the rapid acceleration of the projectile out at a high velocity.",
+        "image": "ipfs://bafybeihjzya37wpmtct2miidvvrj5vk54fpqpz4ivipzmwqa3qxeds4egq/carbine.png",
+        "animation_url":"ipfs://bafybeidbgyv5qcikjme4k4xfggwmau7ktpblxjj5inhms4lwetro43uxvi/carbine.glb",
+        "external_url": "ipfs://bafybeidbgyv5qcikjme4k4xfggwmau7ktpblxjj5inhms4lwetro43uxvi/carbine.glb",
+        "attributes": [
+            {
+                "trait_type": "Weapon Type",
+                "value": "Marksman Rifle"
+            },
+            {
+                "trait_type": "Ammo Type",
+                "value": "Energy"
+            },
+            {
+                "trait_type": "Faction",
+                "value": "Covenant"
+            }
+        ]
+    },
+    "needler" : {
+        "name": "Type-33 Needler",
+        "fileName": "needler",
+        "description": "The Type-33 Guided Munitions Launcher is a Covenant projectile weapon that fires long, sharp crystalline shards that are guided until they impale a target — hence the “needler” moniker. Several seconds after coming to rest in their target, the needles detonate, creating severe and in most cases fatal wounds. The needler's top plate has 14 holes, with the needles protruding out of the holes. When the trigger is pulled, the needle is fed from the top into the barrel of the weapon, and fired at high speed. The Type-33 GML is used by Covenant foot soldiers of nearly all types.",
+        "image": "ipfs://bafybeihjzya37wpmtct2miidvvrj5vk54fpqpz4ivipzmwqa3qxeds4egq/needler.png",
+        "animation_url":"ipfs://bafybeidbgyv5qcikjme4k4xfggwmau7ktpblxjj5inhms4lwetro43uxvi/needler.glb",
+        "external_url": "ipfs://bafybeidbgyv5qcikjme4k4xfggwmau7ktpblxjj5inhms4lwetro43uxvi/needler.glb",
+        "attributes": [
+            {
+                "trait_type": "Weapon Type",
+                "value": "Infantry Weapon"
+            },
+            {
+                "trait_type": "Ammo Type",
+                "value": "Crystal Shards"
+            },
+            {
+                "trait_type": "Faction",
+                "value": "Covenant"
+            }
+        ]
+    },
+    "beam_rifle" : {
+        "name": "Type-50 SRS SRS Beam Rifle",
+        "fileName": "beam_rifle",
+        "description": "The Type-50 SRS is a battery-powered directed energy weapon that fires ionized particle beams. The battery for the weapon has enough charge to fire ten shots. The muzzle velocity of the weapon is 3657 m/s (12,000 f/s), with a maximum effective range of roughly 1,500 m (4900 ft) When firing, the weapon has a near-silent and negligible muzzle signature, and inflicts wounds comparable to the 14.5×114mm round fired by the UNSC's SRS99 series of sniper rifles, capable of instantly killing a target. The beam rifle has a barrel length of 82.55 cm (32.5 in.) and an overall length of 160.4 cm (63.2 in.), weighing in at 18 kg (39.6 lbs).",
+        "image": "ipfs://bafybeihjzya37wpmtct2miidvvrj5vk54fpqpz4ivipzmwqa3qxeds4egq/beam_rifle.png",
+        "animation_url":"ipfs://bafybeidbgyv5qcikjme4k4xfggwmau7ktpblxjj5inhms4lwetro43uxvi/beam_rifle.glb",
+        "external_url": "ipfs://bafybeidbgyv5qcikjme4k4xfggwmau7ktpblxjj5inhms4lwetro43uxvi/beam_rifle.glb",
+        "attributes": [
+            {
+                "trait_type": "Weapon Type",
+                "value": "Sniper Rifle"
+            },
+            {
+                "trait_type": "Ammo Type",
+                "value": "Energy"
+            },
+            {
+                "trait_type": "Faction",
+                "value": "Covenant"
+            }
+        ]
+    },
+    "energy_sword" : {
+        "name": "Type-1 Energy Sword",
+        "fileName": "energy_sword",
+        "description": "The energy sword is the signature weapon of the Sangheili and has been their chief weapon of nobility since its creation during one of the Ages of Discovery. The Sangheili pride themselves on their skills with the weapon, which they regard as holy, and believe that it is better for a Sangheili to fall on his sword to redeem his honor than to die dishonorably. The Sangheili are very strict on who can be trained in the art of swordsmanship; in civilian life only aristocrats are permitted to wield energy swords. Sword wielders are not eligible for marriage, though they may breed with any female they choose, married or otherwise, to ensure successful transmission of swordsman genes.",
+        "image": "ipfs://bafybeihjzya37wpmtct2miidvvrj5vk54fpqpz4ivipzmwqa3qxeds4egq/energy_sword.png",
+        "animation_url":"ipfs://bafybeidbgyv5qcikjme4k4xfggwmau7ktpblxjj5inhms4lwetro43uxvi/energy_sword.glb",
+        "external_url": "ipfs://bafybeidbgyv5qcikjme4k4xfggwmau7ktpblxjj5inhms4lwetro43uxvi/energy_sword.glb",
+        "attributes": [
+            {
+                "trait_type": "Weapon Type",
+                "value": "Melee Weapon"
+            },
+            {
+                "trait_type": "Ammo Type",
+                "value": "None"
+            },
+            {
+                "trait_type": "Faction",
+                "value": "Covenant"
+            }
+        ]
+    },
+    "skewer" : {
+        "name": "Flaktura Workshop Skewer",
+        "fileName": "skewer",
+        "description": "The Skewer is an anti-tank weapon employed by Banished Jiralhanae, with such operators known as Skewer-bearers. The launcher fires a rocket-sized spike capable of piercing through the armor of a main battle tank, or punch through the energy shields and titanium shell of GEN3 MJOLNIR armor, even from range. The launcher has an emitter of some kind, likely of gravitic operation similar to other Jiralhanae spike weaponry, which is used to launch the spike round and can be intensified - presumably to adjust the muzzle velocity of the fired projectile. The Skewer was manufactured by the Forge of Teash and developed by the Flaktura workshop.",
+        "image": "ipfs://bafybeihjzya37wpmtct2miidvvrj5vk54fpqpz4ivipzmwqa3qxeds4egq/skewer.png",
+        "animation_url":"ipfs://bafybeidbgyv5qcikjme4k4xfggwmau7ktpblxjj5inhms4lwetro43uxvi/skewer.glb",
+        "external_url": "ipfs://bafybeidbgyv5qcikjme4k4xfggwmau7ktpblxjj5inhms4lwetro43uxvi/skewer.glb",
+        "attributes": [
+            {
+                "trait_type": "Weapon Type",
+                "value": "Speargun" 
+            },
+            {
+                "trait_type": "Ammo Type",
+                "value": "Spear"
+            },
+            {
+                "trait_type": "Faction",
+                "value": "Banished"
+            }
+        ]
+    },
+    "gravity_hammer" : {
+        "name": "Type-2 Gravity Hammer",
+        "fileName": "gravity_hammer",
+        "description": "The gravity hammers evolved from traditional war hammers wielded by Jiralhanae war chieftains, which were a major focus of the Jiralhanae's barbaric culture, as it serves as the ultimate symbol of clan leadership in addition to being a powerful weapon. The ceremonial hammer of a pack or a clan is only passed to another Jiralhanae if he can best his chieftain in ceremonial combat; the mantle of leadership passes along with the weapon. The wielder of the weapon was expected to treat their gravity hammer with great care.",
+        "image": "ipfs://bafybeihjzya37wpmtct2miidvvrj5vk54fpqpz4ivipzmwqa3qxeds4egq/gravity_hammer.png",
+        "animation_url":"ipfs://bafybeidbgyv5qcikjme4k4xfggwmau7ktpblxjj5inhms4lwetro43uxvi/gravity_hammer.glb",
+        "external_url": "ipfs://bafybeidbgyv5qcikjme4k4xfggwmau7ktpblxjj5inhms4lwetro43uxvi/gravity_hammer.glb",
+        "attributes": [
+            {
+                "trait_type": "Weapon Type",
+                "value": "Melee Weapon" 
+            },
+            {
+                "trait_type": "Ammo Type",
+                "value": "None"
+            },
+            {
+                "trait_type": "Faction",
+                "value": "Banished"
+            }
+        ]
+    }
+}
