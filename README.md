@@ -1,4 +1,8 @@
-# HaloNFTFrontend
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/38076357/180817334-90eac9a6-ac74-4b77-9611-846c302d0a62.png">
+</p>
+
+# Halo Weapons NFT Frontend
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
 
