@@ -1,0 +1,10 @@
+* [33mc580b4d[m[33m ([m[1;36mHEAD -> [m[1;32mtemp[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m Improved mobile version; AR support
+* [33mce840a4[m Fixed wrong block explorer for Avalanche
+* [33m7daac57[m Fixed background img path to be relative so it works on deployment
+* [33m1d08873[m Github pages deploy
+* [33ma0d0cfc[m Removed Moralis from project; Deployed contract to Avalanche Testnet
+* [33m09696fb[m Update README.md
+* [33mdcb58d0[m Update README.md
+* [33mafd0584[m Delete .vscode directory
+* [33mf1feae7[m Update .gitignore
+* [33m60b4d73[m initial frontend commit
