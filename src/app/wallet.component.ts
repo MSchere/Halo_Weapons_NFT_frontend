@@ -17,7 +17,7 @@ export type Wallet = string;
       <strong>Address: </strong>
       <a
       style = "color: #69f0ae;"
-      href="https://sepolia.etherscan.io/address/{{ wallet }}" target="_blank">{{ wallet }}</a>
+      href="https://testnet.snowtrace.io/address/{{ wallet }}" target="_blank">{{ wallet }}</a>
       </pre>
     </ng-container>
     <ng-template #userNotDefined>
