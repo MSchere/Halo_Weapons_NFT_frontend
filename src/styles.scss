@@ -53,6 +53,12 @@ html {
     margin-right: auto;
 }
 
+@media only screen and (max-width: 600px) {
+    .mat-custom-card {
+        width: 80vw;
+    }
+}
+
 .mat-custom-input {
     font-size: 16px;
 }

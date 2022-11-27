@@ -20,6 +20,18 @@ import axios from 'axios';
         poster={{this.posterPath}}
         shadow-intensity="1" auto-rotate
         >
+        <button mat-button slot="ar-button" style="
+        position: absolute;
+        border-top: 1px solid white;
+        bottom: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+        color:white">
+      Activate AR
+        </button>
       </model-viewer>
       <button mat-button style="
       position: absolute;
@@ -59,8 +71,8 @@ export class ModelViewerComponent implements OnInit {
   weaponName: string = this.weapon.name;
   poster: any; //only for ipfs metadata retrieval
   model: any; //same
-  
-  constructor() {}
+
+  constructor() { }
 
   ngOnInit(): void {
   }
@@ -89,7 +101,7 @@ export class ModelViewerComponent implements OnInit {
       //else go to the next index
       else idx = currentIndex + 1;
     }
-    else { 
+    else {
       //if the current index is the first index of the weapons array, go to the last index
       if (currentIndex === 0) idx = this.maxIndex;
       //else go to the prev index
@@ -116,14 +128,14 @@ export class ModelViewerComponent implements OnInit {
     //IPFS uri of the metadata json
     const uri = gateWay + "bafybeiftwmde7cqptm5lgzmonjkwxripziww45gis6fl6u5jt6zqqeufi4/" + idx;
     try {
-    const meta : any = await axios.get(uri)
-    .catch(function (error) { console.log(error); });
-    console.log(meta);
-    //returns the metadata properties
-    this.poster = gateWay + meta.data.image.substring(7, meta.data.image.length);
-    this.model = gateWay + meta.data.animation_url.substring(7, meta.data.animation_url.length);
-    this.weaponName = meta.data.name;
-    this.description = meta.data.description;
+      const meta: any = await axios.get(uri)
+        .catch(function (error) { console.log(error); });
+      console.log(meta);
+      //returns the metadata properties
+      this.poster = gateWay + meta.data.image.substring(7, meta.data.image.length);
+      this.model = gateWay + meta.data.animation_url.substring(7, meta.data.animation_url.length);
+      this.weaponName = meta.data.name;
+      this.description = meta.data.description;
     } catch (error) {
       console.log(error);
     }
