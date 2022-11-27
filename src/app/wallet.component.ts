@@ -1,10 +1,9 @@
 import { Component, Input } from "@angular/core";
-import { Moralis } from 'moralis';
 
-export type User = Moralis.User<Moralis.Attributes>;
+export type Wallet = string;
 
 @Component({
-  selector: 'app-user',
+  selector: 'app-wallet',
   template: `
   <div
   style="display: flex;
@@ -13,12 +12,12 @@ export type User = Moralis.User<Moralis.Attributes>;
   width: 50vw;
   margin: 10px auto;
   color: white;">      
-    <ng-container *ngIf="user; else userNotDefined">
+    <ng-container *ngIf="wallet; else userNotDefined">
       <pre style="display: flex;">
       <strong>Address: </strong>
       <a
       style = "color: #69f0ae;"
-      href="https://rinkeby.etherscan.io/address/{{ user?.attributes?.ethAddress }}" target="_blank">{{ user?.attributes?.ethAddress }}</a>
+      href="https://sepolia.etherscan.io/address/{{ wallet }}" target="_blank">{{ wallet }}</a>
       </pre>
     </ng-container>
     <ng-template #userNotDefined>
@@ -29,5 +28,5 @@ export type User = Moralis.User<Moralis.Attributes>;
 })
 
 export class UserComponent {
-    @Input() user?: User;
+    @Input() wallet?: string;
 }

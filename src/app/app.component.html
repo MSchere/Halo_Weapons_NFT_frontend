@@ -1,7 +1,7 @@
 <mat-card class="mat-custom-card" style="display: flex; justify-content: center; height: 10vh;">
-  <app-user [user]="user"></app-user>
+  <app-wallet [wallet]="wallet"></app-wallet>
   <!-- Login / Logout -->
-  <ng-container *ngIf="user; else needLogin">
+  <ng-container *ngIf="wallet; else needLogin">
     <button mat-stroked-button color="primary" (click)="logOut()" className="customButton">Logout</button>
   </ng-container>
 </mat-card>
@@ -9,7 +9,7 @@
 <mat-card class="mat-custom-card">
   <span class="mat-h1">Halo Weapons NFT</span>
   <p style="margin-top: 5px;">
-    ERC-721 NFTs with embedded 3D models.
+    ERC-721 NFTs with embedded 3D models ready to cause mayhem on the Avalanche Fuji Testnet.
     There's 12 to collect!<br>
     You can mint a random NFT or a custom one providing metadata uploaded to IPFS.
   </p>
@@ -17,7 +17,7 @@
 </mat-card>
 
 <mat-card class="mat-custom-card" style="display: flex; justify-content: center;">
-<ng-container *ngIf="user; else cantMint">
+<ng-container *ngIf="wallet; else cantMint">
   <button mat-raised-button color="accent" (click)="mintRandom()" >Mint random weapon</button>
   <p style="margin-top: 10px;">or</p>
   <div style="display: flex; gap: 40px;">
